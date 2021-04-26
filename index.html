@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ICon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- ResetCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./accest/css/franco.css">
+    <script src="./accest/js/franco.js"></script>
+    <title>Đề 1</title>
+</head>
+<body>
+    <div class="page">
+        <headr id="head">
+            <div id="header" class="menu">
+                <div class="top-menu">
+                    <div class="menu__left">
+                        <i class="far fa-bookmark"></i>
+                        <a href="">Welcome to France - an e-Commerce PSD Template!</a>
+                    </div>
+                   <div class="menu__right">
+                       <div id="menu">
+                            <div class="menu__right-setting">
+                                <i class="fas fa-cog"></i>
+                                <a href="">Shop Setting</a>
+                            </div>
+                            <div class="menu__right-login">
+                                <i class="fas fa-lock"></i>
+                                <a href="">Member Login</a>
+                            </div>
+                       </div>     
+                   </div>
+                </div>
+                <div class="main-menu">
+                    <div class="menu__logo">
+                        <p>FRANCO</p>
+                    </div>
+                    <nav class="menu__title">
+                        <ul class="title">
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">WOMEN</a></li>
+                            <li><a href="">MEN</a></li>
+                            <li><a href="">ABOUT US</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">COLLECTIONS</a></li>
+                            <li><a href="">CONTAC</a></li>      
+                        </ul>
+                        <i class="fas fa-search" onclick="timKiem()"></i>
+                    </nav>
+                    <div class="menu__card">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-shopping-cart" onclick="shopping()"></i>
+                    </div>
+                </div>
+            </div>
+        </headr>
+        <div class="type-content">
+            <div class="content">
+                <div class="fran-body-container">
+                    <div class="banner">
+                        <div class="banner__left">
+                            <div class="banner__left-img">
+                                <img src="./accest/css/images/banner_1.jpg">
+                            </div>
+                            <div class="banner__left-title">
+                                <p>Two High-end Materials</p>
+                                <input type="submit" name="" value="Shop Now">
+                            </div>
+                        </div>
+                        <div class="banner__right">
+                            <div class="banner__right-top">
+                                <div class="banner-top-img">
+                                    <img src="./accest/css/images/banner_2.jpg">
+                                </div>
+                                <div class="banner-top-title">
+                                    <p class="small">SMALL THING</p>
+                                    <p class="make">MAKE DIFFERENT</p>
+                                </div>
+                            </div>
+                            <div class="banner__right-bottom">
+                                <div class="banner-bottom-img">
+                                    <img src="./accest/css/images/banner_3.jpg">
+                                </div>
+                                <div class="banner-bottom-title">
+                                    <p class="fol">FOLIO</p>
+                                    <p class="black">BLACKPACK</p>
+                                    <input type="submit" name="" value="Shop Now">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-booth">
+                        <div class="booth-title">
+                            <p class="franco">FRANCO</p>
+                            <p class="featured">FEATURED ITEMS</p>
+                        </div>
+                        <div class="booth-list">
+                            <!-- Group 1 -->
+                            <div class="content-both-list">
+                                <!-- 1 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_1.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Suspendisse id volutpat</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <div class="decreption-star-black">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <div class="brick">$99.00</div>
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_2.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Lorem ipsum dolor</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <div class="decreption-star-black">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <div class="brick">$99.00</div>
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_3.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Proin sed nulla mi</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <div class="decreption-star-black">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_4.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Aenean placerat</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <div class="brick">$99.00</div>
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Group 2 -->
+                            <div class="content-both-list">
+                                <!-- 1 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_5.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Suspendisse id volutpat</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <div class="decreption-star-black">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <div class="brick">$99.00</div>
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_6.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Lorem ipsum dolor</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <div class="decreption-star-black">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <div class="brick">$99.00</div>
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_7.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Proin sed nulla mi</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <div class="decreption-star-black">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="both-list">
+                                    <div class="both-list-img">
+                                        <img src="./accest/css/images/img_8.jpg">
+                                    </div>
+                                    <div class="both-list-addtocart">
+                                        <button>ADD TO CART</button>
+                                    </div>
+                                    <div class="both-list-decreption">
+                                        <div class="decreption-name">
+                                            <p>Aenean placerat</p>
+                                        </div>
+                                        <div class="decreption-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="decreption-price">
+                                            <div class="brick">$99.00</div>
+                                            <p>$84.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+        <div class="content-blog">
+            <div class="blog" >
+                <div class="blog-title" >
+                    <p class="latest">LATEST</p>
+                    <p class="new">NEW & EVENTS</p>
+                </div>
+                <div class="blog-content" >
+                    <div class="blog-list">
+                        <!-- 1 -->
+                        <div class="blog-list-item">
+                            <div class="item__img">
+                                <img src="./accest/css/images/img_9.jpg">
+                                <div class="item-date">
+                                    <p>Jan</p>
+                                    <p class="day">23</p>
+                                </div>
+                                <div class="border">
+                                </div>
+                            </div>
+                            <div class="item__bottom">
+                                <div class="item__content">
+                                    <a href="#" class="title">In commodo dolor vitae</a>
+                                    <p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+                                </div>
+                                <div class="item__information">
+                                    <div class="information">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </div>
+                                    <div class="information">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="blog-list-item">
+                            <div class="item__img">
+                                <img src="./accest/css/images/img_10.jpg">
+                                <div class="item-date">
+                                    <p>Jan</p>
+                                    <p class="day">23</p>
+                                </div>
+                                <div class="border">
+                                </div>
+                            </div>
+                            <div class="item__bottom">
+                                <div class="item__content">
+                                    <a href="#" class="title">Vivamus non dignissim elit</a>
+                                    <p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+                                </div>
+                                <div class="item__information">
+                                    <div class="information">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </div>
+                                    <div class="information">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="blog-list-item">
+                            <div class="item__img">
+                                <img src="./accest/css/images/img_11.jpg">
+                                <div class="item-date">
+                                    <p>Jan</p>
+                                    <p class="day">23</p>
+                                </div>
+                                <div class="border">
+                                </div>
+                            </div>
+                            <div class="item__bottom">
+                                <div class="item__content">
+                                    <a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+                                    <p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+                                </div>
+                                <div class="item__information">
+                                    <div class="information">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </div>
+                                    <div class="information">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol> -->
+                    <div class="content-three-dots">
+                        <div class="dots-one"> 
+                        </div>
+                        <div class="dots-two">  
+                        </div>
+                        <div class="dots-one">       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="fran-footer">
+            <div class="footer">
+                <div class="footer-left">
+                    <div class="title">
+                        <p>About Franco</p>
+                    </div>
+                    <div class="left-content">
+                        <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris vulputate mi, eu interdum nunc diam at ipsum. </p>
+                    </div>
+                    <div class="left-menu-icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-behance"></i>
+                        <i class="fab fa-dribbble"></i>     
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <div class="title">
+                        <p>Navigation</p>
+                    </div>
+                    <div class="center-menu">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Blog</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Featured Brands</a></li>
+                                <li><a href="#">Gift Vouchers</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Specials Gift</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="title">
+                        <p>Shop Location</p>
+                    </div>
+                    <div class="right-address">
+                        <ul>
+                            <li>
+                                <i class="far fa-map"></i> 
+                                <p>500 Hennessy Road</p>
+                            </li>
+                            <li>
+                                <p class="address">Causeway Bay, Hong Kong</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <p>+1 23456789</p>
+                            </li>
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                <p>contact@yourdomain.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="brick-footer"></div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__left">
+                    <p>© Copyright 2015 & Made with </p>
+                    <i class="fas fa-heart"></i>
+                    <p>by</p>
+                    <p class="hitech"> ArrowHitech.</p>
+                </div>
+                <div class="footer-bottom__right">
+                    <ul>
+                        <li><i class="fab fa-cc-visa"></i></li>
+                        <li><i class="fab fa-cc-paypal"></i></li>
+                        <li><i class="fab fa-cc-mastercard"></i></li>
+                        <li><i class="fab fa-cc-discover"></i></li>
+                        <li><i class="fab fa-cc-amex"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</content>
+</html>
