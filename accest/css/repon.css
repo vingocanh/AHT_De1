@@ -1,0 +1,242 @@
+@media (min-width: 1025px) {
+    .nav-bar {
+        display: none;
+    }
+    .title a{
+        padding-right: 10px;
+        margin-right: 0px;
+    }   
+}
+@media (min-width: 1280px){
+    .title a{
+        padding-right: 25px;
+        margin-right: 0px;
+    }
+}
+@media (min-width: 1920px){
+    .title a{
+        padding: 0px;
+        margin-right: 52px;
+    }   
+}
+@media (max-width: 1024px){
+    .page{
+        overflow-x: hidden;
+    }
+    .title li a {
+        justify-content: space-between;
+    }
+    .menu__title {
+        display: none;
+    }
+    .banner{
+        /* width: 90%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list, .list2{
+        flex: 1 45%;
+    }
+    .list3, .list4 {
+        flex: 1 30%;
+    }
+    .footer-bottom__right ul{
+        margin: 0%;
+        padding: 0px;
+        text-align: center;
+    }
+    .blog-list, .footer-top{
+        display: flex;
+        justify-content: center;
+    }
+    .banner__left{
+        margin: 0;
+    }
+    .banner-top-title .small{
+        position: absolute; 
+        top: 150px;
+    }
+    .banner-top-title .make{
+        position: absolute;
+        left: 55px;
+        top: 190px;
+    }
+    .banner-top-img img{
+        height: 330px;
+    }
+    .banner__right{
+        display: flex;
+    }
+    .banner__right-top{
+        margin-right: 30px;
+    }
+    .both-list-img a img{
+        width: 100%;
+    }
+    a img{
+        display: block;
+    }
+    .booth-list .both-list-addtocart a{
+        position: absolute;
+        left: 5px;
+        top: 185px;
+        
+    }
+    .content-booth{
+        width: 75%;
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-booth .content .booth-title .franco, .featured{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ft-bottom{
+        width: 80%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 768px) {
+    .menu__title {
+        display: none;
+    }
+    .banner{
+        width: 80%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-bottom__right ul{
+        margin: 0%;
+        padding: 0px;
+        text-align: center;
+    }
+    .blog-list, .footer-top{
+        display: flex;
+        justify-content: center;
+    }
+    .banner__left{
+        margin: 0;
+    }
+    .banner-top-title .small{
+        top: 110px;
+    }
+    .banner-top-title .make{
+        left: 55px;
+        top: 150px;
+    }
+    .banner-top-img img{
+        height: 270px;
+    }
+    .banner__right{
+        display: flex;
+    }
+    .banner__right-top{
+        margin-right: 30px;
+    }
+    .both-list-img a img{
+        width: 100%;
+    }
+    a img{
+        display: block;
+    }
+    .booth-list .both-list-addtocart a{
+        left: 5px;
+        top: 315px;
+        
+    }
+    .footer-left ,.footer-center, .footer-right, .ft-bottom{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-booth{
+        width: 80%;
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-booth .content .booth-title .franco, .featured{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list3{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 425px){
+    /* .both-list-img a img{
+        width: 100%;
+    }
+    a img{
+        display: block;
+    } */
+    .banner__right{
+        display: none;
+    }
+    /* .list, .list2, .list3, .list4 {
+        flex: 1 40%;
+    } */
+    .list2, .list4{
+        margin: 0 0 0 10px;
+    }
+    .booth-list .both-list-addtocart a{
+        left: 5px;
+        top: 160px; 
+    }
+    .banner__left-title h2{
+        right: 10px;
+        top: 130px;
+        font-size: 20px;
+    }
+    .banner__left-title a{
+        right: 10px;
+        top: 180px;
+    } 
+    .ft-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-left ,.footer-center, .footer-right{
+        width: 80%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 375px){
+    .page{
+        overflow-x: hidden;
+    }
+    .list, .list2, .list3, .list4 {
+        flex: 1 80%;
+    }
+    .banner__left-title h2{
+        right: 10px;
+        top: 100px;
+        font-size: 20px;
+    }
+    .banner__left-title a{
+        right: 10px;
+        top: 150px;
+    } 
+    .booth-list .both-list-addtocart a{
+        left: 5px;
+        top: 310px; 
+    }
+}
+@media (min-width: 1024px) {
+    .list, .list4, .list3, .list2 {
+        flex: 1 20% !important;
+    }
+}

@@ -1,3 +1,42 @@
+var slide = 0;
+var slide_max = 2;
+$(document).ready(function (){
+  let width = $(window).width();
+  console.log(width);
+  $(".nav-bar").click(function () {
+    if($(".menu-content").is(":hidden")) {
+        $(".menu-content").show();
+    }else {
+        $(".menu-content").hide();
+    }
+  })
+
+})
+function showSlide(index) {
+  slide_index = index;
+  var slides = document.getElementsByClassName("blog-list-item");
+  for (let i = 1; i <= slides.length; i++) {
+      if (i >= index && i <= index + slide_count_max - 1) {
+          slides[i - 1].style.display = "block";
+      } else {
+          slides[i - 1].style.display = "none";
+      }
+  }
+  var dotSlide = document.getElementById("dot-slides");
+  dotSlide.innerHTML = "";
+  for (let i = 0; i < slides.length - slide_count_max + 1; i++) {
+      var elDot = document.createElement("i");
+      elDot.className = "fas fa-circle dot";
+      elDot.setAttribute("onclick", `showSlide(${i + 1})`);
+      dotSlide.appendChild(elDot);
+  }
+  var dots = document.getElementsByClassName("dot");
+  for (let i = 1; i <= dots.length; i++) {
+      dots[i - 1].className = dots[i - 1].className.replace(" dot-active", "");
+      // $(".dot-active").removeClass("dot-active");
+  }
+  dots[index - 1].className += " dot-active";
+}
 function timKiem(){
 
     function autocomplete(inp, arr) {
@@ -121,3 +160,31 @@ function timKiem(){
 function shopping(){
     alert("Đây là shopping")
 }
+
+// var dem = 1;
+// var max = 3;
+// show(dem);
+
+// // Next/previous controls
+// function plusSlides(max) {
+//   show(dem += max);
+// }
+
+// // Thumbnail image controls
+// function currentSlide(max) {
+//   show(slideIndex = max);
+// }
+// function show(index){
+//   var slides = document.getElementsByClassName("content-blog");
+//   var dots = document.getElementsByClassName("dot"); 
+//   if (index > slides.length) {dem = 1}
+//   if (index < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+// }
