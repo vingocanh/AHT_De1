@@ -63,7 +63,7 @@ li{
     list-style: none;
 }
 #menu i, a{
-    color: #414141;
+    color: #616161;
     font-size: 12px;
 }
 .menu__right-setting{
@@ -74,7 +74,7 @@ li{
 }
 .menu__left i, a{
     font-size: 14px;
-    color: #414141; 
+    color: #616161; 
     margin-right: 4px;
     letter-spacing: 0.4px;
 }
@@ -119,14 +119,21 @@ li{
     justify-content: flex-start;
 }
 .menu__logo h1{
-    font-family: "Montserrat", sans-serif;;
+
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
     font-size: 20px;
-    font-weight: 950;
-    letter-spacing: 15.5px;
-    color: #000;
-    border: 2px solid #000000;
-    padding: 6px 0px 12px 15px;
-    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.8em;
+    line-height: 0.75em;
+    width: 200px;
+    height: 40px;
+}
+.menu__title .title{
+    padding: 0px;
+    margin-right: 60px;
 }
 .menu__logo h1:hover{
     color: #8262b5;
@@ -141,7 +148,7 @@ li{
     
 }
 .title li a i{
-    font-size: 15px;
+    font-size: 17px;
     color: #000000;
     font-weight: 900;
 }
@@ -149,9 +156,9 @@ li{
     display: flex;
     align-items: center;
     font-weight: bold;
-    margin-left: -165px;
     margin-left: auto;
     margin-right: auto;
+    /* margin-left: 0px; */
     /* margin: 0 auto; */
 }
 .title a:hover{
@@ -206,18 +213,21 @@ li{
     margin-bottom: 30px;
 }
 .banner__left-title a{
+
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8262b5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 106px;
+    height: 40px;
     position: absolute;
     right: 90px;
     top: 365px;
-    font-family: 'Montserrat-Regular', sans-serif;
-    background-color: #8262b5;
-    color: #ffffff;
-    padding: 12px;
-    /* cursor: pointer; */
-    font-size: 15px;
-    width: 105px;
-    height: 40px;
-    letter-spacing: 0.9px;
 }
 .banner__left-title a:hover{
     opacity: 0.7;
@@ -269,18 +279,20 @@ li{
     margin-bottom: 30px;
 }
 .banner-bottom-title a{
-    position: absolute; 
-    left: 40px; 
-    top: 175px;
-    font-family: 'Montserrat-Regular', sans-serif;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
     background-color: #8262b5;
     color: #ffffff;
-    padding: 13px 0px 12px 22px;
-    /* cursor: pointer; */
-    font-size: 12px;
-    width: 110px;
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 106px;
     height: 40px;
-    letter-spacing: 2px;
+    position: absolute;
+    left: 40px; 
+    top: 175px;
 }
 .banner-bottom-title a:hover{
     opacity: 0.7;
@@ -394,6 +406,7 @@ li{
     margin-top: 0px;
     margin-left: 5px;
     color: #8262b5;
+    font-weight: 700;
 }
 .decreption-price .brick{
     text-decoration: line-through;
@@ -442,7 +455,7 @@ li{
 }
 .blog-list{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
 }
 .blog-list-item +.blog-list-item{
@@ -548,7 +561,7 @@ li{
 .information a{
     color: #999999;
 }
-.content-three-dots {
+.dot-slide {
     margin-top: 20px;
     padding-bottom: 65px;
     color: #616161;
@@ -557,6 +570,10 @@ li{
     letter-spacing: 5px;
 }
 .dot {
+    color: #616161;
+    font-size: 12px;
+}
+.dot:hover{
     color: #8262b5;
     font-size: 14px;
 }
@@ -581,6 +598,9 @@ li{
 /* .footer-top .title{
     position: relative;
 } */
+.p-footer{
+    width: 110%;
+}
 .footer-left .title h4 {
     letter-spacing: 0.55px;
 }
@@ -620,7 +640,7 @@ li{
     font-family: 'Open Sans', sans-serif;
     color: #888888;
     font-size: 14px;
-    margin-top: 53px;
+    /* margin-top: 53px; */
     line-height: 1.6;
     letter-spacing: 0.7px;
 }
@@ -635,7 +655,7 @@ li{
 }
 .footer-center .center-menu{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .footer-center .center-menu .menu a{
     text-decoration: none;
@@ -653,11 +673,13 @@ li{
 }
 .footer-center .center-menu .menu ul{
     padding-left: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
+    /* margin-top: 20px; */
 }
 .footer-center .center-menu .menu-right ul{
     margin-left: -26px;
-    margin-top: 20px;
+    margin-top: 0px;
+    /* margin-top: 20px; */
 }
 .footer-center .center-menu .menu{
     width: 50%;
@@ -680,7 +702,7 @@ li{
 }
 .right-address  ul{
     padding-left: 0px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .right-address li p, a{
     margin-bottom: 0px;
@@ -723,6 +745,9 @@ li{
     display: flex;
     align-items: center;
 }
+.footer-bottom__left p{
+    flex-wrap: wrap;
+}
 .footer-bottom__right ul{
     margin-top: -4px;
     margin-left: 35px;
@@ -742,6 +767,7 @@ li{
     margin-left: 4px;
     color: #ffffff;
 }
+
 .footer-bottom__right ul li i {
     margin-left: 5px;  
     color: #888888;
