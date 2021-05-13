@@ -256,7 +256,7 @@
         overflow-x: hidden;
     }
     .top-menu{
-        padding: 15px 20px 5px 20px;
+        padding: 15px 20px 15px 20px;
     }
     .row{
         padding: 15px 20px;
@@ -308,7 +308,6 @@
     .menu__logo h1{
         padding: 5px 0px 5px 6px;
         font-size: 15px;
-
         width: 160px;
         height: 35px;
         display: flex;
