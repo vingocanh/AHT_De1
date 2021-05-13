@@ -44,7 +44,7 @@ function showSlide(index) {
           slides[i - 1].style.display = "none";
       }
   }
-  var dotSlide = document.getElementById("dot-slides");
+  var dotSlide = document.getElementById("content-three-dots");
   dotSlide.innerHTML = "";
   for (var i = 0; i < slides.length - slide_count_max + 1; i++) {
       var elDot = document.createElement("i");
@@ -56,7 +56,7 @@ function showSlide(index) {
   for (var i = 1; i <= dots.length; i++) {
       dots[i - 1].className = dots[i - 1].className.replace(" dot-active", "");
   }
-  dots[index - 1].className += " dot-active";
+  dots[index - 1].className += "dot-active";
 }
 function timKiem(){
 
