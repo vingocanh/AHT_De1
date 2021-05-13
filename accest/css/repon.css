@@ -241,6 +241,12 @@
     .blog-list .blog-list-item:nth-child(2), .blog-list .blog-list-item:nth-child(3){
         margin: 0px;
     }
+    .footer-bottom__left p{
+        margin-bottom: 0px;
+    }
+    .footer-bottom__right{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 375px){
@@ -291,12 +297,6 @@
     .booth-list .both-list-addtocart a{
         left: 5px;
         top: 310px; 
-    }
-    .footer-bottom__left p{
-        margin-bottom: 0px;
-    }
-    .footer-bottom__right{
-        margin-bottom: 10px;
     }
 }
 @media (max-width: 320px){
