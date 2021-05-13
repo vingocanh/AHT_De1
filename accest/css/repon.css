@@ -209,6 +209,9 @@
         left: 5px;
         top: 150px; 
     }
+    .blog-list-item{
+        margin-left: 0px;
+    }
     .both-list-decreption .decreption-name a{
         font-size: 12px;
     }
